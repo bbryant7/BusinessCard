@@ -1,0 +1,45 @@
+Body{
+  font-family: helvetica;
+  margin: 0;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+#title {
+  background-color: black;
+  color: white;
+  margin: auto;
+  text-align: center;
+  border-bottom: 1px, ridge, black;
+  padding: 10px;
+
+
+}
+
+img {
+  border-radius: 100%;
+  width: 110px;
+  height: 110px;
+
+}
+#picture {
+  margin: 80px;
+}
+
+#info {
+  margin: 50px;
+}
+
+#story {
+  width: 400px;
+  margin: 50px;
+}
+#story p {
+  color: #9E9E9E;
+}
+li {
+ list-style: none;
+}
