@@ -1,11 +1,17 @@
 Body{
   font-family: helvetica;
   margin: 0;
+  width: 1100px;
+  vertical-align: middle;
+
 }
 
 #wrapper {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  background-color: lightgray;
+
 }
 
 #title {
@@ -13,7 +19,6 @@ Body{
   color: white;
   margin: auto;
   text-align: center;
-  border-bottom: 1px, ridge, black;
   padding: 10px;
 
 
@@ -30,16 +35,39 @@ img {
 }
 
 #info {
-  margin: 50px;
+  margin: 50px 70px 50px 50px;
+
 }
 
+
 #story {
-  width: 400px;
+  width: 350px;
   margin: 50px;
+
+
 }
 #story p {
   color: #9E9E9E;
+  padding-left: 20px;
+  border-left: 1px dotted #9E9E9E;
+
+}
+#story h2 {
+  padding-left: 20px;
 }
 li {
  list-style: none;
+ color: #9E9E9E;;
+ padding-top: 5px;
+}
+
+a {
+  color: black;
+}
+ul {
+  padding: 0;
+}
+
+span {
+  color: #65A4A4;
 }
